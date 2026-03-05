@@ -203,4 +203,50 @@ ReLU
 MaxPool  
 
 Conv1D  
-Batc
+BatchNorm  
+ReLU  
+MaxPool 
+
+Global Average Pooling  
+
+Fully Connected Layer  
+
+Output: Crack / No Crack
+
+---
+
+# Current Challenges
+
+The acoustic dataset used in this project is relatively small compared to typical deep learning datasets.
+
+Small datasets make it difficult for deep neural networks to generalize well, and models may suffer from instability or overfitting.
+
+Improving dataset size and signal feature extraction will be important for improving model performance.
+
+---
+
+# Future Work
+
+Possible future improvements include:
+
+- Feature extraction from acoustic signals
+- Spectrogram based audio models
+- Multimodal fusion networks
+- Larger acoustic datasets
+- Transformer based architectures
+- Real-time structural monitoring systems
+
+The long-term goal is to build a robust multimodal crack detection system for structural health monitoring.
+
+---
+
+# References
+
+Acoustic Crack Detection Dataset  
+https://github.com/jfernsler/Acoustic_Crack_Detection
+
+SDNET2018 Dataset  
+https://www.kaggle.com/datasets/aniruddhsharma/structural-defects-network-concrete-crack-images
+
+SDNET2018 Paper  
+https://doi.org/10.1016/j.dib.2018.11.015
